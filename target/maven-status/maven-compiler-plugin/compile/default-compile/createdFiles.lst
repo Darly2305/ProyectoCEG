@@ -1,0 +1,5 @@
+com\example\SistemaCEG2\Entidades\Alumno.class
+com\example\SistemaCEG2\Repositorio\RepositorioAlumno.class
+com\example\SistemaCEG2\SistemaCeg2Application.class
+com\example\SistemaCEG2\Controladores\ControladorAlumno.class
+com\example\SistemaCEG2\Servicios\ServicioAlumno.class
