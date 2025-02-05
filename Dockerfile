@@ -20,4 +20,4 @@ EXPOSE 8080
 COPY target/SistemaCEG2-0.0.1-SNAPSHOT.jar
 
 # Esperar a que PostgreSQL esté disponible antes de iniciar la aplicación
-CMD ["sh", "-c", "echo 'Esperando a PostgreSQL...' && sleep 10 && java -jar app.jar"]
+CMD ["sh", "-c", "echo 'Esperando a PostgreSQL...' && sleep 10 && java -jar SistemaCEG2-0.0.1-SNAPSHOT.jar"]
