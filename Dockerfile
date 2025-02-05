@@ -20,6 +20,3 @@ EXPOSE 8080
 
 # Copiar el JAR compilado a la raíz del contenedor
 COPY target/SistemaCEG-0.0.1-SNAPSHOT.jar app.jar
-
-# Esperar a que PostgreSQL esté disponible antes de iniciar la aplicación
-CMD ["sh", "-c", "echo 'Esperando a PostgreSQL...' && sleep 10 && java -jar app.jar"]
