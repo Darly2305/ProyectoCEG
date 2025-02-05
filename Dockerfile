@@ -19,4 +19,4 @@ RUN mvn clean package -DskipTests
 EXPOSE 8080
 
 # Copiar el JAR compilado a la raíz del contenedor
-COPY target/SistemaCEG-0.0.1-SNAPSHOT.jar app.jar
+COPY target/SistemaCEG2-0.0.1-SNAPSHOT.jar app.jar
